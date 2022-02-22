@@ -13,11 +13,11 @@ from __future__ import absolute_import
 import logging, os
 from os import getenv
 
-try:
-    from disco.client import Client, ClientConfig
-except ImportError:
-    #raise ImportError("Please `pip install disco-py`")
-    os.system("pip install git+https://github.com/CoolAQ3D/disco")
+#try:
+#    from disco.client import Client, ClientConfig
+#except ImportError:
+#    #raise ImportError("Please `pip install disco-py`")
+#    os.system("pip install git+https://github.com/CoolAQ3D/disco")
 
 from ..auto import tqdm as tqdm_auto
 from ..utils import _range
